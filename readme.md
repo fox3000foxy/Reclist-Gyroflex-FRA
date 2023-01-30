@@ -6,7 +6,7 @@ This resource contains:
 - Option reclists with shorter mora strings to substitute lists from this release
 - base oto configs for quick configuration
 
-#1. The [B]asics#
+#1. The [B]asics
 
 This resource has two use cases:
     a. You want to start making a French voicebank for UTAU?
