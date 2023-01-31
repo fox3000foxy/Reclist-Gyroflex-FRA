@@ -17,6 +17,7 @@ Great! Start with the listed `Core_xx` reclists
 Also great! Please check if your voicebank is configured in the Petit Mot format and then choose from the different `Extra_xx` lists
 
 Both use cases have associated base oto.ini files that will give you a starting point of lines when using setParam or vlabeler
+The values noted after the reclist name is the length as a number of required recordings, to give an approximation of the time of recording needed
 
 The Gyroflex French Reclist Edit is based on melomad's [Petit Mot CVVC / Gros Mot VCV format](https://github.com/Gyromancyx/Reclist-Gyroflex-FRA)
 
@@ -41,6 +42,7 @@ You may now pick and choose from the `Extras_xx` list. They host different exten
 
 `Extra_Adds` contains end breaths and glottal stops
 `Extra_ny` contains CCV sounds for smoother [ny] consonant combinations
+`Extra_VCC` contains transitional end consonants. They are used to have a smoother transition between vowels followed by two consonants. Using this, you can substitute some plosive CC endings for [VC.] for a more natural glottal stop, i.e. [ael][lk][kae] can now become [ael.][kae]. Please note that this list's base oto is also taken witout modifications from my voicebank and will thus definitely need editing before usage
 
 # 4. Fine-Tuning the [C]onfig
 
@@ -80,14 +82,15 @@ Super! On peut commencer avec les listes nommées `Core_xx`
 Super aussi! Prière de vérifier si la voicebank estconfiguré en notation Petit Mot et choisir des différentes listes `Extra_xx`
 
 Les deux sont euqipées de liste de configuration oto de base qui fournissent une base de configuration de lignes pour l'utilisation dans setParam ou vlabeler
-
+Les valeurs notées après les noms des listes est la longueur de la liste en nombre d'enregistrements à faire, pour donnée une impression du temps d'enregistrement nécessaire
+ 
 La liste éditée Gyroflex Françaisest basée sur la liste [Petit Mot CVVC / Gros Mot VCV format](https://github.com/Gyromancyx/Reclist-Gyroflex-FRA) de melomad
 
 # 2. Starting from [S]cratch
 
 *C'est le premier enregistrement d'une liste française?*
 
-Prière de commencer avec la liste `Core_CVVC`. Elle vas introduire les différentes voyelles et consonnes nécessaire pour un style de chant Français Continental. Des ressources de prononciation et des voicebank en exemple se trouvent sur [utaufrance.com](https://utaufrance.com)
+Prière de commencer avec la liste `Core_CVVC`. Elle vas introduire les différentes voyelles et consonnes nécessaire pour un style de chant Français Continental. Des ressources de prononciation et des voicebank en exemple se trouvent sur [utaufrance.com](https://utaufrance.com) 
 Il est recommandé d'enregistrer avec un BGM à 100BPM sur OREMO
 
 Suivante est la liste `Core_VV_7mora`. Elle ajoutera des transitions de voyelles à la liste. La liste prévois 7mora, donc 7 syllables par ligne. Si cela n'est pas comfortable, il est possible de la substituer par les listes `Opt_VV_5mora` ou `Opt_VV_4mora`
@@ -107,6 +110,7 @@ Maintenant il est possible de continuer avec la liste `Extras_xx`. Celles-ci con
 
 `Extra_Adds` contient des souffles de fins et des stops glottales
 `Extra_ny` contient des combinasions [ny] pour un aperçu plus naturel
+`Extra_VCC` contient des transitions de consonnes transitionelles. Elles sont utilisées pour un parçu plus naturel sur les transitions entre consonnes dans les cluster de deux consonnes et peuvent éviter l'utilisation de CC dans certains cas. Avec ceci, il est possible d'utiliser [VC.] pour une pause glottale plus naturelle avant les consonnes plosives, par exemple [ael][lk][kae] peut maintenant être substitué par [ael.][kae]. Prière de noter que l'oto de base pour cette liste est également une copie de la configration de ma voicebank est neçessite donc absolument une modification avant l'utilisation
 
 # 4. Fine-Tuning the [C]onfig
 
